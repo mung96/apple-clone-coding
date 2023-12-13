@@ -1,0 +1,36 @@
+#globalnav{
+    display:flex;
+    flex-direction: row;
+    border:5px solid tomato;
+    position:fixed;
+    top:0px;
+}
+#notice-credit{
+    padding:50px;
+}
+
+#heros{
+    display:flex;
+    flex-direction: column;
+    border: 5px solid gray;
+}
+
+#heros .graphic-item{
+    border: 3px solid red;
+    padding: 20px;
+}
+
+#promos{
+    display:grid;
+    grid-template-columns: 50% 50%;
+    border: 5px solid blue;
+}
+
+#promos .graphic-item{
+    border: 3px solid red;
+    padding: 10px;
+}
+
+#advertise{
+    border: 5px solid blue;
+}
